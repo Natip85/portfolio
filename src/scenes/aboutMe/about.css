@@ -1,0 +1,271 @@
+.about-design-wrap {
+  width: 100vw;
+  margin: 50px auto;
+  display: flex;
+}
+
+.sm-about-design-wrap {
+  padding: 1rem;
+}
+
+.design-title-wrap {
+  width: 30%;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+}
+
+.about-design-title {
+  font-family: "Cedarville Cursive", cursive;
+  font-size: 6rem;
+  transform: rotate(-5deg);
+  background-color: transparent;
+  width: 50%;
+}
+
+.design-text-wrap {
+  background-color: transparent;
+  padding-right: 10rem;
+  margin-top: 150px;
+  width: 70%;
+}
+
+.design-text {
+  background-color: transparent;
+  font-size: 1.3rem;
+}
+
+.about-app-wrap {
+  width: 100vw;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.sm-about-app-wrap {
+  padding: 1rem;
+}
+
+.app-title-wrap {
+  width: 30%;
+  background-color: transparent;
+  /* display: flex;
+  justify-content: center; */
+}
+
+.sm-app-title-wrap {
+  background-color: red;
+}
+
+.about-app-title {
+  font-family: "Cedarville Cursive", cursive;
+  font-size: 6rem;
+  transform: rotate(-5deg);
+  background-color: transparent;
+  width: 50%;
+}
+
+.app-text-wrap {
+  background-color: transparent;
+  padding-left: 10rem;
+  width: 70%;
+}
+
+.app-text {
+  background-color: transparent;
+  font-size: 1.3rem;
+  margin-top: 150px;
+  margin-left: 2rem;
+}
+
+.about-web-wrap {
+  width: 100vw;
+  margin: 50px auto;
+  display: flex;
+}
+
+.sm-about-web-wrap {
+  padding: 1rem;
+}
+
+.web-title-wrap {
+  width: 50%;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+}
+
+.about-web-title {
+  font-family: "Cedarville Cursive", cursive;
+  font-size: 6rem;
+  transform: rotate(-5deg);
+  background-color: transparent;
+  width: 100%;
+  text-align: center;
+}
+
+.web-text-wrap {
+  background-color: transparent;
+  padding-right: 10rem;
+  margin-top: 150px;
+  width: 50%;
+}
+
+.web-text {
+  background-color: transparent;
+  font-size: 1.3rem;
+}
+
+.my-mission {
+  width: 80%;
+  margin: 100px auto;
+  height: 10rem;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 7rem;
+}
+
+.my-mission-header {
+  position: absolute;
+  top: -2.5rem;
+  font-size: 3rem;
+  color: black;
+}
+
+.my-mission-text {
+  width: 75%;
+  font-size: 1.3rem;
+  text-align: justify;
+}
+
+.about-me-profile {
+  height: 70vh;
+  border: 1px solid black;
+  width: 70vw;
+  margin: 100px auto;
+  border-radius: 5rem;
+  display: flex;
+}
+
+.sm-about-me-profile {
+  border: 1px solid black;
+  width: 90vw;
+  margin: 50px auto;
+  border-radius: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.left-about-wrap {
+  display: flex;
+  background-color: transparent;
+  height: 70vh;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 50%;
+  border-bottom-left-radius: 5rem;
+  border-top-left-radius: 5rem;
+}
+
+.rsm-btn {
+  border-bottom-left-radius: 5rem;
+  height: 4.5rem;
+  background-color: #3f54f7;
+  color: white;
+  border-bottom: none;
+  font-size: 1.5rem;
+}
+
+.rsm-btn:hover {
+  background-color: #293dd3;
+}
+
+.sm-rsm-btn {
+  border-bottom-left-radius: 5rem;
+  height: 4.5rem;
+  width: 50%;
+  background-color: #3f54f7;
+  color: white;
+  border-bottom: none;
+  font-size: 1rem;
+}
+
+.sm-about-me-btn-wrap {
+  background-color: transparent;
+}
+
+.right-about-wrap {
+  display: flex;
+  background-color: transparent;
+  height: 70vh;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 50%;
+  border-bottom-right-radius: 5rem;
+  border-top-right-radius: 5rem;
+}
+
+.getintouch-btn {
+  border-bottom-right-radius: 5rem;
+  height: 4.5rem;
+  background-color: #96a2fb;
+  color: #3f54f7;
+  border-bottom: none;
+  font-size: 1.5rem;
+}
+
+.getintouch-btn:hover {
+  background-color: #848ede;
+}
+
+.sm-getintouch-btn {
+  border-bottom-right-radius: 5rem;
+  height: 4.5rem;
+  background-color: #96a2fb;
+  color: #3f54f7;
+  border-bottom: none;
+  font-size: 1rem;
+  width: 50%;
+}
+
+.me-image {
+  height: 75%;
+  border-top-left-radius: 5rem;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  padding-right: 1rem;
+}
+
+.sm-me-image {
+  height: 30rem;
+  width: 100%;
+  border-top-left-radius: 5rem;
+  border-top-right-radius: 5rem;
+}
+
+.about-me-sec {
+  height: 75%;
+  border-top-right-radius: 5rem;
+  margin-top: 2rem;
+  margin-right: 2rem;
+  padding-left: 1rem;
+  padding-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.about-me-title {
+  font-size: 3rem;
+}
+
+.sm-img-text-wrap{
+  padding: 1rem 1rem 0rem 1rem;
+  border-top-right-radius: 5rem;
+  border-top-left-radius: 5rem;
+}
