@@ -128,7 +128,7 @@ const Contact = ({ setSelectedPage }: Props) => {
                 </p>
               )}
 
-              <button className="form-submit-btn" type="submit">
+              <button className={isAboveMediumScreens?"form-submit-btn":"sm-form-submit-btn"} type="submit">
                 SUBMIT
               </button>
             </form>

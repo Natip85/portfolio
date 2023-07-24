@@ -1,5 +1,43 @@
-.footer-wrap{
+.footer-wrap {
   border-bottom: 1px solid black;
   margin-bottom: 50px;
-  padding: 2rem;
+  padding: 1rem;
+}
+
+.footer-links-wrap {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-links {
+  text-decoration: none;
+  color: black;
+  width: 6rem;
+}
+
+.footer-links:hover {
+  text-decoration: underline;
+}
+
+.me-desc-sec {
+  margin-bottom: 3rem;
+  margin-right: 5rem;
+  flex: 1;
+}
+
+.pages-sec {
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+}
+
+.footer-icons {
+  color: black;
+  font-size: 1.3rem;
+  transition: all 0.1s linear;
+}
+
+.footer-icons:hover {
+  color: #3f54f7;
+  font-size: 1.4rem;
 }

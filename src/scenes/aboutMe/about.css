@@ -72,10 +72,11 @@
 }
 
 .app-text {
+  width: 80%;
   background-color: transparent;
   font-size: 1.3rem;
   margin-top: 150px;
-  margin-left: 2rem;
+  margin-left: 5rem;
 }
 
 .about-web-wrap {

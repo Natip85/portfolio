@@ -1,18 +1,15 @@
 .active{
-  color: red
+  color: red;
 }
 
 .not-active{
   color: rgb(70, 70, 70);
+  
 }
 #links{
   font-size: 1.2rem;
   text-decoration: none;
   margin-right: 2rem;
   background-color: transparent;
-}
-
-#links:hover{
-  /* color: rgb(133, 133, 133); */
-  /* text-shadow:  1px 1px 1px rgb(103, 103, 103); */
+  margin-bottom: 4rem;
 }
